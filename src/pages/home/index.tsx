@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +29,7 @@ export default function Home() {
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-             <Link href={"/home"}> hey Kafia</Link>
+              hey Kafia, this is the home folder
             </code>
             .
           </li>
